@@ -1,0 +1,171 @@
+@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+header {
+  background-color:rgb(26, 174, 243);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 10%;
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+  z-index: 100;
+}
+
+.name-logo {
+  color: azure;
+  font-size: 40px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.name {
+  line-height: 1;
+  font-family:'Amiri', serif;
+}
+
+.headbar a {
+  font-size: 18px;
+  text-decoration: none;
+  color: azure;
+  font-weight: bold;
+  margin-right: 40px;
+  transition: 0.5s;
+}
+
+.headbar a:hover {
+  color: rgb(42, 42, 42);
+  text-decoration: underline;
+}
+
+.profile-image img {
+  position: absolute;
+  right:13%;
+  top:27%;
+  max-width: 400px;
+  max-height: 400px;
+  border-radius: 50%;
+}
+
+main {
+  height: 175vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10%;
+}
+
+.home-text {
+  position: absolute;
+  left: 15%;
+  top: 32%;
+  color: rgb(42, 42, 42);
+  max-width: 525px;
+  line-height: 1.5;
+}
+
+.home-text h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.home-text h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: rgb(26, 174, 243);
+}
+
+.home-text p {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.box {
+  margin-top: 60%;
+  position: sticky;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  font-style: italic;
+}
+
+.card {
+  height: 300px;
+  width: 450px;
+  padding: 20px 35px;
+  background-color: rgb(213, 236, 247);
+  border-radius: 20px;
+  margin: 40px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.card h4 {
+  color:rgb(42, 42, 42);
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.card p {
+  color: rgb(42, 42, 42);
+  font-size: 18px;
+  font-weight:500;
+  line-height: 1;
+  margin-bottom: 25px;
+}
+
+footer {
+  color: azure;
+  background-color:rgb(26, 174, 243);
+  margin-top: auto;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  align-items: center;
+}
+
+.rights {
+  margin-top: 15px; 
+  font-weight: bold ;
+}
+
+.socials {
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials a {
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: 2px solid azure;
+  color: rgb(240, 255, 255);
+  border-radius: 50%;
+  font-size: 25px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.socials a:hover {
+  color: rgb(42, 42, 42);
+  border-color: rgb(42, 42, 42); 
+}
