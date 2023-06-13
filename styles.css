@@ -118,11 +118,12 @@ main {
   margin-bottom: 30px;
 }
 
-.card p {
+.card ul {
   color: rgb(42, 42, 42);
+  list-style: none;
   font-size: 18px;
   font-weight:500;
-  line-height: 1;
+  line-height: 2;
   margin-bottom: 25px;
 }
 
