@@ -104,8 +104,8 @@ main {
 }
 
 .card {
-  height: 300px;
-  width: 450px;
+  height: 18rem;
+  width: 32rem;
   padding: 20px 35px;
   background-color: rgb(213, 236, 247);
   border-radius: 20px;
@@ -116,6 +116,7 @@ main {
 }
 
 .card h4 {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   color:rgb(42, 42, 42);
   font-size: 26px;
   font-weight: 600;
@@ -129,6 +130,10 @@ main {
   font-weight:500;
   line-height: 2;
   margin-bottom: 25px;
+}
+
+.card li {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .index-footer {
